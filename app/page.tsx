@@ -1,3 +1,5 @@
+import DigitalTwinChat from "@/components/DigitalTwinChat";
+
 export default function Home() {
   const milestones = [
     {
@@ -154,6 +156,13 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section
+        id="digital-twin"
+        className="mx-auto max-w-6xl px-6 pb-20 pt-4 md:px-10 md:pb-24"
+      >
+        <DigitalTwinChat />
       </section>
     </main>
   );
